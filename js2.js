@@ -103,6 +103,7 @@ function fixStudent(data, callback) {
 function clickFix(id){
 
     document.getElementById("btn-fix").style.display = 'block';
+    document.getElementById("btn-save").style.display = 'none';
 
     const updateUser = Array.isArray(users) && users.find((user => user.id === id));
     form.elements.msv.value = updateUser.msv;
@@ -137,5 +138,6 @@ function clickFix(id){
         });
 
         document.getElementById("btn-fix").style.display = 'none';
+        document.getElementById("btn-save").style.display = 'block';
     }
 }
