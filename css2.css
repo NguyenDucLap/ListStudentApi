@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+/* css cho div input */
+#id-input{
+    height: 350px;
+    margin-top: 5%;
+    padding: 0;
+    border: 1px solid green;
+}
+
+.title-input {
+    padding: 5px;
+    color: white;
+    background-color: green;
+}
+
+.form-input {
+    margin: 1%;
+}
+
+.btn-input {
+    margin-top: 10%;
+    margin-left: 1%;
+}
+    #btn-fix {
+        width: 60px;
+        margin-left: 15%;
+        margin-top: -6.5%;
+        display: none;
+    }
+
+/* css cho output */
+#id-output {
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 0;
+}
+
+.title-output {
+    padding: 5px;
+    color: white;
+    background-color: green;
+    margin-bottom: 5%;
+}
+
+#tbl-output {
+    width: 100%;
+}
+    #tbl-output th {
+        padding: 5px;
+        color: white;
+        text-align: center;
+        border: 1px solid gray;
+        background-color: green;
+        
+    }
+    #tbl-output td {
+        padding: 5px;
+        border: 1px solid green;
+    }
+    #tbl-output .btn {
+        margin: auto;
+    }

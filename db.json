@@ -1,0 +1,22 @@
+{
+  "list-student": [
+    {
+      "msv": "a",
+      "name": "b",
+      "classInp": "c",
+      "id": 21
+    },
+    {
+      "msv": "2",
+      "name": "4",
+      "classInp": "1",
+      "id": 22
+    },
+    {
+      "msv": "aaaaaaaaaa",
+      "name": "bbbbbbbbb",
+      "classInp": "cccccccccccc",
+      "id": 23
+    }
+  ]
+}
